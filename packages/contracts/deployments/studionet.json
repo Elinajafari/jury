@@ -1,27 +1,27 @@
 {
   "network": "studionet",
   "chain_id": 61999,
-  "contract": "0x1865c9a89095FBF5f5EF3aA9B42aea9BB078013B",
-  "explorer": "https://explorer-studio.genlayer.com/address/0x1865c9a89095FBF5f5EF3aA9B42aea9BB078013B",
+  "contract": "0xda9EFDc43Cdb4e957f22d9326d02F15651B952f2",
+  "explorer": "https://explorer-studio.genlayer.com/address/0xda9EFDc43Cdb4e957f22d9326d02F15651B952f2",
   "source_sha256": "b84616c43f49100b8d15b1507af0666dea920ccf7c7bfded2583df6a2d26ab76",
   "constructor": {},
-  "deployer": "0xb24Cf38Eec5dbc8651d03b9358F87739C1100816",
+  "deployer": "0x096e4eF00c69b8A72C53dC2B01a4258a6aEe0561",
   "steps": [
     {
       "step": "deploy",
       "method": "deploy",
-      "from": "0xb24Cf38Eec5dbc8651d03b9358F87739C1100816",
-      "tx": "0x039b0f5cfb58798357bfbb17c4aca1cea561347f5751f1b6ce27bf8f41aee2cc",
+      "from": "0x096e4eF00c69b8A72C53dC2B01a4258a6aEe0561",
+      "tx": "0x8809d8b2f783c2828089fbbd4b451eb39cf7ff2c2a60dbd9da19f57523ba2556",
       "status": "ACCEPTED",
       "ok": true,
       "refusal": "",
-      "address": "0x1865c9a89095FBF5f5EF3aA9B42aea9BB078013B"
+      "address": "0xda9EFDc43Cdb4e957f22d9326d02F15651B952f2"
     },
     {
       "step": "the sponsor pays the prize in",
       "method": "open",
-      "from": "0x540D19baa68e42c8fB6dbc655bFE56ce108f1e06",
-      "tx": "0x1bcb66413c8111a26483caeb1898dd782e42dc32679fb37be92afc34ec899e12",
+      "from": "0x703f9cB8FA9aF347314494CAA889Eb7307c29304",
+      "tx": "0xc9495efdff5b5331197274443f33025d712c784ddfb4abe6f62be420feeec525",
       "status": "ACCEPTED",
       "ok": true,
       "refusal": ""
@@ -29,8 +29,8 @@
     {
       "step": "the sponsor enters their own contest: refused",
       "method": "enter",
-      "from": "0x540D19baa68e42c8fB6dbc655bFE56ce108f1e06",
-      "tx": "0x29728d103a33961cd2b2284f261a0972f1d425f85987c707cdae969b04a70f6d",
+      "from": "0x703f9cB8FA9aF347314494CAA889Eb7307c29304",
+      "tx": "0x251e743e13e7f61f8e57c563c4b9ba992642b1f46e01b4743dd86aca756f0ef4",
       "status": "ACCEPTED",
       "ok": false,
       "refusal": "[EXPECTED] the sponsor cannot enter their own contest"
@@ -38,8 +38,8 @@
     {
       "step": "first answer clears the bar and takes the crown",
       "method": "enter",
-      "from": "0x11d2f66Df04d3d10FC1359091117935F67Af1157",
-      "tx": "0x19b5f0b70b786531216461dcf03f73d1781ce4695caf84b6980e834df472574f",
+      "from": "0xf43cb74e4Cfb5CfFE28F3Ea073Ac745F4b877c85",
+      "tx": "0x14cc9d98ef62cb90e6f87b1bdaf6e39324f67738d78bc96eb8715f9baf017a41",
       "status": "ACCEPTED",
       "ok": true,
       "refusal": ""
@@ -47,8 +47,8 @@
     {
       "step": "a second answer by the same entrant: refused",
       "method": "enter",
-      "from": "0x11d2f66Df04d3d10FC1359091117935F67Af1157",
-      "tx": "0x4943cfac7e9ae7572b76b06aa36c88c551ed7d73adfaed4a3dabeff4728b8e78",
+      "from": "0xf43cb74e4Cfb5CfFE28F3Ea073Ac745F4b877c85",
+      "tx": "0xe79952f19bc3246832ed0b2ea4f1d961475925cc0c80bdcf4a5de705f58384e3",
       "status": "ACCEPTED",
       "ok": false,
       "refusal": "[EXPECTED] one answer per entrant per contest"
@@ -56,8 +56,8 @@
     {
       "step": "a more concrete answer challenges and takes the crown",
       "method": "enter",
-      "from": "0x4329cFA47c2787dac0e49FD79a7E227934Aa6e67",
-      "tx": "0x2434446d6ea37314e806cc9c111d80d9a8ec82608e1d5e4e3de524c4a835b636",
+      "from": "0x2Dfc13C3596FeBA4C00034a91D949D13623b1932",
+      "tx": "0xaa16f0665ca4488624489f91a2d133280d29a117cec54886ee8aefffda84acef",
       "status": "ACCEPTED",
       "ok": true,
       "refusal": ""
@@ -65,8 +65,8 @@
     {
       "step": "a vaguer answer challenges and fails to",
       "method": "enter",
-      "from": "0x6E3aF05b3f02DaAB7D5a0cDc80D5fa1331ACFf64",
-      "tx": "0x02c73e3f5397f7e84191652e520033b829de7a92fe6c4900c8f11d7555035251",
+      "from": "0xDd0C8b487f03AB3D3907475bbE7ACD9D334A39f4",
+      "tx": "0xe5eabcef4d7824ae3bbcaa340337887eeee9abbc54eaa92f695b7392d0d68ca0",
       "status": "ACCEPTED",
       "ok": true,
       "refusal": ""
@@ -74,17 +74,17 @@
     {
       "step": "settle before the window closes: refused",
       "method": "settle",
-      "from": "0x6E3aF05b3f02DaAB7D5a0cDc80D5fa1331ACFf64",
-      "tx": "0xab673ac288f26170051d97d9b40a7e2eea55572ba058336c33c804c532f8a575",
+      "from": "0xDd0C8b487f03AB3D3907475bbE7ACD9D334A39f4",
+      "tx": "0x7a1b52e51d904797af47129314cc1d295aa3779f8852759d29d8b87f9247cc2e",
       "status": "ACCEPTED",
       "ok": false,
-      "refusal": "[EXPECTED] entries are open until 2026-11-17T17:04:43Z"
+      "refusal": "[EXPECTED] entries are open until 2026-11-17T17:31:32Z"
     },
     {
       "step": "settle after the window closes: the prize goes to the champion",
       "method": "settle",
-      "from": "0x6E3aF05b3f02DaAB7D5a0cDc80D5fa1331ACFf64",
-      "tx": "0xd7749b192d25184f1887789fe305b81ca2f365355421947334f1aac6f8decf88",
+      "from": "0xDd0C8b487f03AB3D3907475bbE7ACD9D334A39f4",
+      "tx": "0x082ffa5f6fa2df4312b57d746f990916550c85c23eb6b76a919f7e770f0d76e1",
       "status": "ACCEPTED",
       "ok": true,
       "refusal": ""
@@ -92,8 +92,8 @@
     {
       "step": "settle again: refused",
       "method": "settle",
-      "from": "0x6E3aF05b3f02DaAB7D5a0cDc80D5fa1331ACFf64",
-      "tx": "0x204b3cba9071ab3c91a9f3de8890d525945525078d9196ae4ab3568faea5c86a",
+      "from": "0xDd0C8b487f03AB3D3907475bbE7ACD9D334A39f4",
+      "tx": "0x4930fde18af4578f53611d25f62e2f79c468b57411769fabee0dc4a160205b76",
       "status": "ACCEPTED",
       "ok": false,
       "refusal": "[EXPECTED] this contest is paid; nothing to settle"
@@ -104,53 +104,53 @@
     "rubric": "A better answer gives concrete, checkable benefits (shade, heat, air, flooding) and avoids slogans.",
     "prize_wei": "10000000000000000",
     "contest": {
-      "champion": "0x4329cFA47c2787dac0e49FD79a7E227934Aa6e67",
+      "champion": "0x2Dfc13C3596FeBA4C00034a91D949D13623b1932",
       "champion_answer": "Street trees shade asphalt and lower street temperatures by several degrees, absorb rainfall to ease flooding, and trap fine dust from traffic.",
-      "changes": 1,
-      "closes_at": "2026-11-17T17:04:43Z",
+      "changes": 2,
+      "closes_at": "2026-11-17T17:31:32Z",
       "entries": 3,
-      "opened_at": "2026-11-17T16:57:43Z",
+      "opened_at": "2026-11-17T17:24:32Z",
       "prize": "10000000000000000",
       "question": "Why should a city plant more street trees? Answer in a few sentences.",
       "rubric": "A better answer gives concrete, checkable benefits (shade, heat, air, flooding) and avoids slogans.",
-      "settled_at": "2026-11-17T17:05:04Z",
-      "sponsor": "0x540D19baa68e42c8fB6dbc655bFE56ce108f1e06",
+      "settled_at": "2026-11-17T17:31:53Z",
+      "sponsor": "0x703f9cB8FA9aF347314494CAA889Eb7307c29304",
       "status": "paid"
     },
     "entries": {
       "entries": [
         {
-          "answer": "Trees are good for a city because they make streets look nice, and people like walking under them in the spring.",
-          "at": "2026-11-17T16:58:10.951932Z",
-          "crowned": "no",
+          "answer": "Street trees give shade in summer, which keeps sidewalks cooler, and their roots soak up some rain after storms.",
+          "at": "2026-11-17T17:24:54.978712Z",
+          "crowned": "yes",
           "id": 0,
           "kind": "bar",
           "reason_is_leader_supplied": true,
-          "verdict": "reject",
-          "who": "0x11d2f66Df04d3d10FC1359091117935F67Af1157",
-          "why": "Gives only vague aesthetics, no concrete checkable benefits per rubric."
+          "verdict": "accept",
+          "who": "0xf43cb74e4Cfb5CfFE28F3Ea073Ac745F4b877c85",
+          "why": "Mentions shade, cooling, and flood absorption — concrete, checkable benefits without slogans, meeting the rubric's basic requirements."
         },
         {
           "answer": "Street trees shade asphalt and lower street temperatures by several degrees, absorb rainfall to ease flooding, and trap fine dust from traffic.",
-          "at": "2026-11-17T16:58:55.478795Z",
+          "at": "2026-11-17T17:25:41.010464Z",
           "crowned": "yes",
           "id": 1,
-          "kind": "bar",
+          "kind": "duel",
           "reason_is_leader_supplied": true,
-          "verdict": "accept",
-          "who": "0x4329cFA47c2787dac0e49FD79a7E227934Aa6e67",
-          "why": "It addresses the question with concrete, checkable benefits: shade, heat reduction, flood mitigation, and dust capture, avoiding slogans."
+          "verdict": "challenger",
+          "who": "0x2Dfc13C3596FeBA4C00034a91D949D13623b1932",
+          "why": "Answer 2 gives concrete, checkable benefits (shade, temperature drop, flooding, dust) as the rubric requires."
         },
         {
           "answer": "Trees are lovely and everybody loves them because nature is wonderful and gives us peace and happiness in the city.",
-          "at": "2026-11-17T16:59:18.648833Z",
+          "at": "2026-11-17T17:26:03.468816Z",
           "crowned": "no",
           "id": 2,
           "kind": "duel",
           "reason_is_leader_supplied": true,
           "verdict": "champion",
-          "who": "0x6E3aF05b3f02DaAB7D5a0cDc80D5fa1331ACFf64",
-          "why": "Answer 1 provides concrete benefits like shade, temperature reduction, and flood control, directly matching the rubric, whereas Answer 2 rel"
+          "who": "0xDd0C8b487f03AB3D3907475bbE7ACD9D334A39f4",
+          "why": "Answer 1 lists measurable benefits; Answer 2 uses vague, uncheckable praise."
         }
       ],
       "question": "Why should a city plant more street trees? Answer in a few sentences."
@@ -160,10 +160,10 @@
     "champion_balance_after": "10000000000000000",
     "champion_gain": "10000000000000000",
     "accounts": {
-      "sponsor": "0x540D19baa68e42c8fB6dbc655bFE56ce108f1e06",
-      "ann": "0x11d2f66Df04d3d10FC1359091117935F67Af1157",
-      "ben": "0x4329cFA47c2787dac0e49FD79a7E227934Aa6e67",
-      "cal": "0x6E3aF05b3f02DaAB7D5a0cDc80D5fa1331ACFf64"
+      "sponsor": "0x703f9cB8FA9aF347314494CAA889Eb7307c29304",
+      "ann": "0xf43cb74e4Cfb5CfFE28F3Ea073Ac745F4b877c85",
+      "ben": "0x2Dfc13C3596FeBA4C00034a91D949D13623b1932",
+      "cal": "0xDd0C8b487f03AB3D3907475bbE7ACD9D334A39f4"
     }
   }
 }

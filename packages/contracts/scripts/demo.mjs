@@ -21,7 +21,7 @@ const WINDOW = 420n;
 
 const QUESTION = "Why should a city plant more street trees? Answer in a few sentences.";
 const RUBRIC = "A better answer gives concrete, checkable benefits (shade, heat, air, flooding) and avoids slogans.";
-const ANN = "Trees are good for a city because they make streets look nice, and people like walking under them in the spring.";
+const ANN = "Street trees give shade in summer, which keeps sidewalks cooler, and their roots soak up some rain after storms.";
 const BEN = "Street trees shade asphalt and lower street temperatures by several degrees, absorb rainfall to ease flooding, and trap fine dust from traffic.";
 const CAL = "Trees are lovely and everybody loves them because nature is wonderful and gives us peace and happiness in the city.";
 
