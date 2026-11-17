@@ -57,7 +57,8 @@ if (waitMs > 0) {
 await w("cal", "settle", [0n], { step: "settle after the window closes: the prize goes to the champion" });
 await w("cal", "settle", [0n], { step: "settle again: refused", expect: "refused" });
 
-const benAfter = await balanceOf(ro, who.ben.address);
+let benAfter = await balanceOf(ro, who.ben.address);
+for (let i = 0; i < 20 && benAfter <= benBefore; i++) { await sleep(10_000); benAfter = await balanceOf(ro, who.ben.address); } // the payout lands after the receipt
 record.steps.push(...rec.steps);
 record.demo = {
   question: QUESTION, rubric: RUBRIC, prize_wei: String(PRIZE),
